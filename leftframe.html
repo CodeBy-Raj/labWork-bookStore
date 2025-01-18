@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leftframe</title>
+<style>
+
+    body{
+        background:#1d1c1c;
+        background: linear-gradient(to left, #504d4d, #717769);
+    }
+    ul{
+        list-style-type:  none;
+        padding: 10%;
+    }
+
+    ul li{
+        font-size: large;
+        /* padding: 10px; */
+        /* margin-top: 30px; */
+             
+
+    }
+
+    a{
+        text-decoration: none;
+        color: #ffff;
+        font-size: 22px;
+        font-weight: bolder;
+        
+    }
+    .sub-menu {
+            display: none; 
+            margin-left: 10px;
+        }
+    ul li:hover > .sub-menu {
+            display: block; 
+        }
+
+
+</style>
+
+</head>
+<body >
+
+
+
+    <ul  >
+
+        <li ><a target="cols2" href="https://abes.ac.in/computer-science-engineering.php">CSE</a> </li> <br>
+
+        <li><a target="cols2" href="https://abes.ac.in/electrical-and-computer-engineering.php">ECE</li> <br>
+
+        <li><a target="cols2" href="https://abes.ac.in/mechanical-engineering.php">ME</a></li> <br>
+
+        <li><a target="cols2" href="https://abes.ac.in/IT-department.php">IT</a></li>
+         <br>
+
+        <li>
+            <a href="#">Practicals</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#practical1">Practical 1</a></li>
+                    <li><a href="#practical2">Practical 2</a></li>
+                    <li><a href="#practical3">Practical 3</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    
+</body>
+</html>
